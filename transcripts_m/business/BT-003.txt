@@ -1,0 +1,10 @@
+Business Team Meeting — Project Nova Scheduling | BT-003
+
+Nina (PM): We need an appointment scheduling portal for customers.
+Carlos (Client): Customers must be able to book, reschedule, and cancel appointments online.
+Nina (PM): Any reminder requirements?
+Carlos (Client): Email reminders are required. SMS reminders would be nice if it doesn't delay launch.
+Nina (PM): What about time zones?
+Carlos (Client): Mandatory. We operate in the US, UK, and India, so every appointment must respect the customer's local time zone.
+Nina (PM): Anything for staff users?
+Carlos (Client): Staff need a calendar view across all locations, and the system must prevent double-booking the same staff member.

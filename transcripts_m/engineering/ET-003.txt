@@ -1,0 +1,8 @@
+Engineering Team Meeting — Project Nova Sprint Plan | ET-003
+
+Dev (Asha): Django should be enough for the scheduling portal.
+Dev (Ben): We'll store all appointment times in UTC and show them as-is in the UI for now. Support can explain conversions if customers ask.
+Dev (Asha): Booking and cancellation are in scope. Rescheduling can be handled by cancel + create for the first release.
+Dev (Ben): Email reminders are easy with SendGrid, so let's do those. SMS can wait.
+Dev (Asha): For staff calendars, let's start with one location at a time. Cross-location views feel like a later enhancement.
+Dev (Ben): To avoid conflicts, we can warn staff if they notice overlapping appointments, but I don't think we need hard prevention logic yet.

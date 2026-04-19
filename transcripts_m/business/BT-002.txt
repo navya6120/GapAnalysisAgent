@@ -1,0 +1,10 @@
+Business Team Meeting — Project Atlas Planning | BT-002
+
+Maya (PM): The client wants an internal analytics dashboard for their operations team.
+Rohit (Client): Users should sign in with their Google Workspace accounts only. No separate passwords if we can avoid it.
+Maya (PM): Okay, so SSO is mandatory.
+Rohit (Client): Yes. Also, analysts need to export filtered reports to CSV for audits.
+Maya (PM): Any access rules?
+Rohit (Client): Managers can see every region, but analysts should only see their assigned region. We also need an audit log for who exported what and when.
+Maya (PM): Got it. Anything optional?
+Rohit (Client): A weekly email digest would be useful, but not critical for launch.

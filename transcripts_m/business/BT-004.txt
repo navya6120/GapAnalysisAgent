@@ -1,0 +1,10 @@
+Business Team Meeting — Project Helix Archive | BT-004
+
+Priya (PM): Legal wants a document archive portal for customer contracts and compliance records.
+Evan (Client): Users need to upload PDFs and scanned images, and then search the contents using OCR.
+Priya (PM): Retention policy?
+Evan (Client): Seven years minimum, and some records need a legal hold so they cannot be deleted.
+Priya (PM): Any security or regional constraints?
+Evan (Client): Yes. External shares must be watermarked, and storage has to stay region-specific for EU and US customers.
+Priya (PM): Nice-to-haves?
+Evan (Client): Bulk upload would be helpful, but not if it delays the core release.

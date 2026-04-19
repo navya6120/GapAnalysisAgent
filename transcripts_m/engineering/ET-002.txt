@@ -1,0 +1,8 @@
+Engineering Team Meeting — Project Atlas Sprint Plan | ET-002
+
+Dev (Leena): Let's build the dashboard in React with a Flask API.
+Dev (Omar): For authentication, we can start with email/password accounts in our own database and add SSO later if needed.
+Dev (Leena): Works for me. For permissions, we can keep it simple with analyst and admin roles.
+Dev (Omar): Export to CSV can wait until phase two. People can screenshot tables for now if they really need something quickly.
+Dev (Leena): I can add a weekly summary email once the main dashboard screens are working.
+Dev (Omar): Audit logging sounds heavy for v1, so let's skip it unless compliance pushes back.

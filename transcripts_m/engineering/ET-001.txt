@@ -1,0 +1,10 @@
+Engineering Team Meeting — Project Orion Sprint Planning | ET-001
+
+Dev (Amir): So for the portal, I’m thinking Next.js on the front end, FastAPI backend. Auth via Auth0.
+Dev (Priya): Makes sense. For the ticket system, we could use a simple state machine — open, in-progress, resolved. Routing can be a rules engine based on keywords in the ticket body.
+Dev (Amir): Yeah. I was thinking we store tickets in Postgres, account history in the same DB. Should be fine for the scale they’re talking about.
+Dev (Priya): What about notifications? I can hook up SendGrid for email pretty quickly.
+Dev (Amir): Let’s do that. We’ll skip SMS for now unless they push for it.
+Dev (Priya): Agreed. I’ll start on the ticket UI. You take auth and account history?
+Dev (Amir): Sure. History page will show the last 12 months by default with a load-more for older records.
+Dev (Priya): Sounds good. Let’s sync Thursday.

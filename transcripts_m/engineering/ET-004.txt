@@ -1,0 +1,8 @@
+Engineering Team Meeting — Project Helix Sprint Plan | ET-004
+
+Dev (Jon): We'll store documents in a single US S3 bucket to keep things simple.
+Dev (Marta): Upload support for PDFs is straightforward. Image uploads can come later once we figure out file preprocessing.
+Dev (Jon): Full OCR search is expensive. For v1, let's just index filenames and manual tags.
+Dev (Marta): We can default retention to three years and revisit if legal complains.
+Dev (Jon): Watermarking shared documents sounds niche. Let's skip it for launch.
+Dev (Marta): Bulk upload is definitely not in the first release.

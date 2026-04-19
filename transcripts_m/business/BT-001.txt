@@ -1,0 +1,11 @@
+Business Team Meeting — Project Orion Kickoff | BT-001
+
+Sarah (PM): Okay, so the core ask from the client is a customer portal. They need their enterprise users to be able to log in, see their account history, and raise support tickets.
+James (Client): Right, and the support tickets need to route to the right team automatically. We have three tiers — billing, technical, and general — and each has a different SLA.
+Sarah (PM): Got it. What about notifications? Do users need to be kept in the loop on ticket status?
+James (Client): Absolutely. Email at minimum. We talked about SMS but that’s a nice-to-have. The main thing is they shouldn’t have to log back in just to check status.
+Sarah (PM): And the account history — how far back?
+James (Client): At least 24 months. Ideally filterable by date and type. Oh — and it has to be GDPR compliant. We’re operating in the EU.
+Sarah (PM): Understood. What about access control? Is this just end users or do admins need a separate view?
+James (Client): Admins need to see everything across all accounts, not just their own. And they should be able to impersonate a user for support purposes.
+Sarah (PM): Okay. I think that covers the big picture. We’ll get back to you with a spec.
